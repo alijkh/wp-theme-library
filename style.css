@@ -1,0 +1,480 @@
+/*
+Theme Name: uni
+Author: ali.kharidar
+Description: This WordPress theme is 100% responsive ...
+Version: 1.1
+Tags: gold, one-column, left-sidebar, responsive-grid, etc
+*/
+body {
+	direction: rtl;
+	background-image:url(images/patternn.png);
+	background-repeat: repeat;
+	 z-index: 2;
+}
+
+.wraper{
+	background-color: rgba(238,238,238,0.45);
+}
+
+/*_________________________________________________________________header*/
+
+header {
+	background-color: #0a155f;
+	background-image:url(images/header-pattern.png);
+	background-repeat: repeat;
+	height:200px;
+}
+
+header h1{
+	margin-top: 20px;
+  text-align: right;
+}
+
+header li{
+	display: inline-block;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+header li button , header li span{
+    background-color: transparent;
+    color: #d9ddef;
+    border-radius: 10px;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+    border: solid 1px;
+    font-size: 10px;
+    display: inline-block;
+}
+.m-header{
+	 width: 100%;
+    height: 100px;
+    margin-top: 55px;
+    background-color: #1528a7;
+}
+
+header h1 a:hover{
+  color: #3ef8f9;
+}
+
+header h1 a{
+    font-size: 2em;
+    color: #343535;
+    margin: 30px;
+    display: inline-block;
+    font-family: iran-sans;
+    font-weight: bolder;
+}
+header h1 a img{
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 247px;
+    top: 30px;
+}
+
+/*_________________________________________________________________nav*/
+
+nav{
+    position: absolute;
+    background: #68bbec;
+    margin-right: 25%;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+nav ul{
+  height:40px;
+  text-align: right;
+}
+
+.category li{
+    display: inline-block;
+    background-color: #68bbec;
+    line-height: 40px;
+    transition: .2s;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.category{
+  display: inline-block;
+}
+
+.category li a{
+    font-size: 1.7em;
+    color: #eee;
+    line-height: 60px;
+    margin: 0px 15px;
+}
+
+/*----------nav hover*/
+
+.category li:hover a{
+  text-shadow: 1px 1px 1px #8C8C8C;
+  color: #fff;
+}
+.category li:hover a{
+  /*color:#632139;*/
+}
+
+.news {
+  margin:0 10px;
+}
+.news a{
+    color: #005c94;
+    display: inline-block;
+    text-align: right;
+    margin: 10px;
+}
+
+.news p{
+	margin:15px;
+}
+.span4 aside{
+  background-color:rgba(223, 253, 130, 0.25);
+  /*position: fixed;*/
+  height: 800px;
+}
+.span4 aside a{
+  width: 100%;
+  color: black;
+  display: inline-block;
+}
+
+.span4 aside li{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 0;
+    padding: 6px;
+    transition:.1s;
+}
+.span4 aside li:hover{
+background-color: rgba(105, 11, 11, 0.07);
+}
+.span4 aside h3{
+  background-color: #632139;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.slider{
+	margin-right: 10px;
+}
+
+
+/*_________________________________________________________________main nav*/
+.main_nav ul{
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.main_nav a{
+    display: inline-block;
+    margin: 0 40px;
+    line-height: 80px;
+    float: left;
+    color: #797272;
+    font-size: 15px;
+
+}
+
+.main_nav li{
+    display: inline-block;
+    background-color: rgba(11, 97, 226, 0.14);
+    line-height: 100px;
+    border-radius: 10px;
+
+}
+
+/*_________________________________________________________________footer*/
+
+footer {
+  padding-bottom: -2px;
+	text-align: center;
+	background-color:#eee;
+	/*margin-top: 100px;*/
+}
+footer li:hover{
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+footer li{
+  padding: 6px 0 ;
+  transition:.2s;
+}
+
+footer .span4 a:hover{
+	color:#334a58	;
+}
+
+footer li a{
+    color: #092B40;
+    font-size: 1.3em;
+    display: inline-block;
+    width: 100%;
+}
+
+footer p{
+	margin:0;
+}
+
+footer h3{
+  margin-top: 5px;
+}
+footer .copyright{
+  text-align: center;
+  bottom: 0;
+}
+
+footer .copyright a{
+  color: #290202;
+  text-shadow: .2px .2px transparent;
+}
+
+footer .copyright h6{
+  color: #290202;
+  font-size: 1em;
+  line-height: 20px;
+}
+
+footer .copyright a:hover{
+  color: #fa7a7f;
+  text-shadow: .2px .2px #fff;
+}
+
+
+
+/*_________________________________________________________________about*/
+
+
+.wpcf7-form{
+  text-align: center;
+}
+
+.wpcf7-form input{
+  border: none;
+  background-color: #fff;
+  outline: none;
+  min-height: 40px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  min-width: 100%;
+  max-width: 100%;
+  border: 2px solid transparent;
+  -webkit-appearance:none;
+}
+
+.wpcf7-form input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.wpcf7-form input:focus{
+  border:2px solid lightblue;
+}
+
+.wpcf7-form textarea{
+  width: 500px;
+  min-height: 100px;
+  height: 300px;
+  max-height: 500px;
+  padding: 15px;
+  min-width: 50%;
+  max-width: 100%;
+  /*float: left;*/
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.wpcf7-form textarea:focus{
+  border:2px solid #2888bb;
+}
+.wpcf7-form input[type="submit"]{
+  border: none;
+  padding: 15px;
+  background: #4a97c2;
+  color: #eee;
+  transition: all 0.25s;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3em;
+  min-width: 10%;
+  width: 20%;
+  color: #eee;
+  margin-top: 15px;
+}
+
+.wpcf7-form input[type="submit"]:hover{
+  background-color: #3b86b0;
+  color: #fff;
+}
+
+
+.wpcf7-form p{
+  padding: 15px 0;
+}
+
+.wpcf7{
+    /*width: 60%;*/
+    margin: 0 auto!important;
+}
+.wpcf7 textarea, .wpcf7 input{
+    font-family: 'IRAN',tahoma,sans-serif;
+    width: 100%;
+}
+.wpcf7 .wpcf7-submit{
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+.wpcf7 .wpcf7-submit:hover{
+    background-color:#ddd
+}
+.wpcf7 .wpcf7-submit:focus{
+    background-color:#ccc
+}
+
+
+/* contact form7*/
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+
+div.wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.wpcf7-not-valid {
+    border: 1px solid #C34848;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+    border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+    border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+    display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 100;
+    border: 1px solid #ff0000;
+    background: #fff;
+    padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+    margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+    display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+    border: none;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+    display: none;
+}
+
+div.wpcf7 .placeheld {
+    color: #888;
+}
+
+span.wpcf7-not-valid-tip {
+    direction: rtl;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+    left: auto;
+    right: 20%;
+}
+
+span.wpcf7-list-item {
+    margin-left: 0;
+    margin-right: 0.5em;
+}
+.wpcf7-form input:focus{
+  border: 2px solid rgba(183, 84, 84, 0.7);
+  outline: none;
+}
+
+.wpcf7-form input[type="submit"]:focus{
+  border:none;
+}
+
+.wpcf7-form p{
+  position: relative;
+}
+
+.wpcf7-form .inputs{
+  position: relative;
+  display: inline-block;
+}
+/*_________________________________________________________________single*/
+.single h2{
+  text-align: right;
+	}
+.single p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
